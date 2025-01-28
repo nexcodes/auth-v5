@@ -1,7 +1,12 @@
+/**
+ * An array of routes that are publicly accessible
+ * These routes will be accessible with / without authentication
+ * @type {string[]}
+ */
 export const publicRoutes = ["/", "/auth/new-verification"];
 /**
  * An array of routes that are used for authentication
- * These eoutes will redirect loggedin in users to the default redirect path
+ * These routes will redirect logged in in users to the default redirect path
  * @type {string[]}
  */
 
